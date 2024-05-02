@@ -1,5 +1,6 @@
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid';
 import { useLocation } from 'react-router-dom';
+import AddObjectiveButton from '../../../components/common/AddObjectiveButton';
 
 const HomeHeader = () => {
   const { pathname, ...rest } = useLocation();
@@ -22,13 +23,7 @@ const HomeHeader = () => {
           type='search'
         />
       </div>
-      <button
-        type='button'
-        className='bg-blue-500 text-white px-6 py-2 rounded-md'
-        onClick={() => alert('Add Objective clicked!')}
-      >
-        Add Objective
-      </button>
+      <AddObjectiveButton />
     </div>
   );
 };
