@@ -4,7 +4,7 @@ const QuickFilters = () => {
   return (
     <div className='flex p-2 bg-gray-200 justify-between items-center flex-wrap'>
       <div className='flex flex-wrap items-center gap-4'>
-        <p className='text-lg pr-2 border-r border-gray-500 text-gray-500'>
+        <p className='text-lg pr-2 border-r border-gray-500 text-gray-500 font-semibold'>
           QUICK FILTERS
         </p>
         <div

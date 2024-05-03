@@ -4,6 +4,7 @@ import HomeHeader from './components/HomeHeader';
 import QuickFilters from './components/QuickFilters';
 import Okrs from './components/tabs/Okrs';
 import Teams from './components/tabs/Teams';
+import React from 'react';
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState('okr');
@@ -28,7 +29,7 @@ const Home = () => {
   ];
 
   return (
-    <div className='p-6 flex flex-col gap-4 w-full'>
+    <div className='p-6 bg-gray-200 flex flex-col gap-4 w-full'>
       <HomeHeader />
       <QuickFilters />
       <CustomizedTab
