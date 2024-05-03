@@ -63,7 +63,7 @@ const people = [
     UpdatedNotes: 'Lorem ispum dolor sit amet',
     Aligned: 'Aligned',
     image:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 
   // More people...
@@ -158,7 +158,7 @@ export default function UsersTable() {
 
                     <td className=' border-b border-b-gray-400 whitespace-nowrap px-3 py-5 text-sm text-gray-500 '>
                       <p className='text-base font-semibold'>{person.Status}</p>
-                      <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-200'>
+                      <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-300'>
                         <div
                           className='bg-green-600 h-2.5 rounded-full'
                           style={{ width: person.Status }}
