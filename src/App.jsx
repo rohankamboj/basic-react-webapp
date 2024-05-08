@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import UserViewTable from './components/tables/UserViewTable';
 import Home from './pages/Home';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
       <Header />
       <div className='flex'>
         <Sidebar />
-        <Home />
+        {/* <Home /> */}
+        <UserViewTable />
       </div>
     </div>
   );

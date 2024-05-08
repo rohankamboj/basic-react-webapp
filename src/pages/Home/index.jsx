@@ -9,9 +9,9 @@ import React from 'react';
 const Home = () => {
   const [activeTab, setActiveTab] = useState('okr');
 
-  const isCurrentTab = (tab: string) => activeTab === tab;
+  const isCurrentTab = (tab) => activeTab === tab;
 
-  const handleTabChange = (tab: string) => {
+  const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
 

@@ -44,12 +44,12 @@ const ObjectiveComponent = ({ handleClose }) => {
             <p className='uppercase'>Owner</p>
           </div>
           <div className='flex gap-2 justify-start items-center w-1/2'>
-          <img
-            className='w-6 h-6 object-cover rounded-full'
-            src={ProfileImage}
-            alt='profile image'
-          />
-          <p>Anne Rempel</p>
+            <img
+              className='w-6 h-6 object-cover rounded-full'
+              src={ProfileImage}
+              alt='profile image'
+            />
+            <p>Anne Rempel</p>
           </div>
         </div>
 
@@ -112,12 +112,12 @@ const ObjectiveComponent = ({ handleClose }) => {
           <p>Measured as a goal towards 100% completion.</p>
         </div>
         <button
-                type='button'
-                className='border border-blue-500 text-blue-500 w-fit px-6 py-2 rounded-md'
-                onClick={() => alert("clicked")}
-            >
-                Add Milestones
-            </button>
+          type='button'
+          className='border border-blue-500 text-blue-500 w-fit px-6 py-2 rounded-md'
+          onClick={() => alert('clicked')}
+        >
+          Add Milestones
+        </button>
         <div className='bg-gray-200 p-2'>
           <p className='uppercase font-semibold'>Progress & Status</p>
           <p>Specify the method for updating progress and status.</p>
@@ -142,22 +142,22 @@ const ObjectiveComponent = ({ handleClose }) => {
             className='p-2 text-lg border w-1/2'
           />
         </div>
-        <div className= 'flex gap-2 w-full justify-end items-center'>
-        <button
-                type='button'
-                className='border border-blue-500 text-blue-500 w-fit px-6 py-2 rounded-md'
-                onClick={() => alert("clicked")}
-            >
-                Cancel
-            </button>
-            <button
-                type='button'
-                className='bg-blue-500 text-white w-fit px-6 py-2 rounded-md'
-                onClick={() => alert("clicked")}
-            >
-                Add Objective
-            </button>
-            </div>
+        <div className='flex gap-2 w-full justify-end items-center'>
+          <button
+            type='button'
+            className='border border-blue-500 text-blue-500 w-fit px-6 py-2 rounded-md'
+            onClick={() => alert('clicked')}
+          >
+            Cancel
+          </button>
+          <button
+            type='button'
+            className='bg-blue-500 text-white w-fit px-6 py-2 rounded-md'
+            onClick={() => alert('clicked')}
+          >
+            Add Objective
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react';
 import React, { Fragment } from 'react';
-import ObjectiveComponent from './Objectivecomponents';
+import ObjectiveComponent from './ObjectiveComponent';
 
 const ObjectiveModal = ({ open, handleClose }) => {
   return (
